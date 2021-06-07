@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.printf("Hello World");
+        Scanner jora = new Scanner(System.in);
+        System.out.printf("Input: ");
+        String iura = jora.nextLine();
+        System.out.printf("Output: " + iura);
     }
 }
